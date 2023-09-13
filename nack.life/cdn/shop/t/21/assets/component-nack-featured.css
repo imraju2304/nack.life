@@ -1,0 +1,133 @@
+.nack-section-featured {
+    text-align: center;
+    padding: 30px 0
+}
+
+.nack-section-featured-content {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.nack-section-featured .flickity-viewport {
+    height: 100% !important
+}
+
+.nack-section-featured .nack-section-featured-header .section-title {
+    font-size: 32px;
+    margin-bottom: 16px
+}
+
+.nack-section-featured .carousel {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+.nack-section-featured .flickity-enabled.is-draggable .flickity-viewport {
+    cursor: initial;
+    cursor: -webkit-initial
+}
+
+.nack-section-featured .carousel-cell-content:hover {
+    cursor: pointer
+}
+
+.nack-section-featured .carousel-cell {
+    position: relative;
+    width: calc((100% - 8%) / 3);
+    height: 100%;
+    margin-right: 4%;
+    background: #8C8;
+    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 0 !important
+}
+
+.nack-section-featured .product__image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.nack-section-featured .product__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover
+}
+
+.nack-section-featured .product__title {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    text-align: center;
+    width: 100%
+}
+
+.nack-section-featured .product__title h6 {
+    font-size: 15px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0
+}
+
+.nack-section-featured .flickity-button {
+    color: #000;
+    background: transparent
+}
+
+.nack-section-featured .flickity-button:hover {
+    color: #000;
+    scale: 1.2;
+    transform-origin: top
+}
+
+.nack-section-featured .flickity-prev-next-button.previous {
+    left: -5%
+}
+
+.nack-section-featured .flickity-prev-next-button.next {
+    right: -5%
+}
+
+.nack-section-featured .flickity-button:disabled {
+    opacity: .6
+}
+
+@media screen and (max-width: 768px) {
+    .nack-section-featured .carousel-cell {
+        width: calc(100% - 10px)
+    }
+    .nack-section-featured .carousel {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0% 4%;
+        outline: none;
+        box-shadow: none;
+        -webkit-tap-highlight-color: transparent
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nack-section-featured .carousel-cell {
+        width: 80%
+    }
+    .nack-section-featured .flickity-prev-next-button {
+        display: none
+    }
+}
+
+/*# sourceMappingURL=/cdn/shop/t/21/assets/component-nack-featured.css.map?v=28937575211255423801694424035 */

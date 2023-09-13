@@ -1,0 +1,141 @@
+.nack_section_two .content_padding {
+    padding: 7%
+}
+
+.no_background_color {
+    background-color: transparent
+}
+
+.nack_section_two .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.nack_section_two .grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: left
+}
+
+.nack_section_two .image_position_right {
+    grid-template-areas: "text img"
+}
+
+.nack_section_two .image_position_left {
+    grid-template-areas: "img text"
+}
+
+.nack_section_two .text_only {
+    grid-template-areas: "text text"
+}
+
+.nack_section_two .content_wrapper {
+    margin-top: 8px;
+    overflow: auto
+}
+
+.nack_section_two .text-section {
+    grid-area: text;
+    box-sizing: border-box;
+    display: grid
+}
+
+.nack_section_two .text-section .content_wrapper p {
+    padding: 0;
+    text-align: inherit
+}
+
+.nack_section_two .text-section h2 {
+    font-size: 32px
+}
+
+.nack_section_two .image-section {
+    grid-area: img;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+    display: grid
+}
+
+.nack_section_two .image-section img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    max-width: 560px
+}
+
+.nack_section_two .content_alignment_left {
+    text-align: left
+}
+
+.nack_section_two .content_alignment_right {
+    text-align: right
+}
+
+.nack_section_two .content_alignment_center {
+    text-align: center
+}
+
+@media screen and (max-width: 768px) {
+    .nack_section_two .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: "img" "text";
+        gap: 0
+    }
+}
+
+.nack_section_two .btn-nack {
+    font-style: var(--font-body-style);
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    background: #face93;
+    padding: 15px 35px !important;
+    font-size: 13px;
+    font-family: ApercuPro-Bold, Source Sans Pro, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    border: none;
+    min-width: 200px;
+    display: inline-block
+}
+
+.nack_section_two .btn-nack:hover {
+    background: rgb(33, 37, 41);
+    color: #face93;
+    text-decoration: none
+}
+
+.nack_section_two .nack-link {
+    font-style: var(--font-body-style);
+    -webkit-font-smoothing: antialiased;
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    box-sizing: border-box;
+    color: #000;
+    text-transform: uppercase;
+    font-family: ApercuPro-Bold, Source Sans Pro, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    border: none;
+    letter-spacing: 1px;
+    background: transparent
+}
+
+/*# sourceMappingURL=/cdn/shop/t/21/assets/component-nack-section-two.css.map?v=139089548761291314191694403439 */

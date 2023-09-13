@@ -1,0 +1,78 @@
+.carousel .carousel-cell {
+    width: 100%;
+    height: 500px
+}
+
+.carousel .carousel-cell img,
+.carousel .carousel-cell video {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%
+}
+
+.carousel .carousel-cell .carousel-slide-text-content {
+    position: absolute;
+    color: #fff;
+    font-weight: 700
+}
+
+.carousel .carousel-cell .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px
+}
+
+.carousel .carousel-cell .top-center {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.carousel .carousel-cell .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px
+}
+
+.carousel .carousel-cell .center-left {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%)
+}
+
+.carousel .carousel-cell .center-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.carousel .carousel-cell .center-right {
+    position: absolute;
+    top: 50%;
+    right: 16px
+}
+
+.carousel .carousel-cell .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px
+}
+
+.carousel .carousel-cell .bottom-center {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.carousel .carousel-cell .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px
+}
+
+/*# sourceMappingURL=/cdn/shop/t/21/assets/component-flickity.css.map?v=37887835221128017401691659969 */
